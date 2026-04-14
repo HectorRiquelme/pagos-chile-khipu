@@ -2,6 +2,13 @@
 
 Sistema de simulacion del flujo de pagos por transferencia bancaria estilo Khipu, orientado al contexto chileno. Permite crear cobros en CLP, redirigir al usuario a una pagina mock de seleccion de banco, confirmar la transferencia, recibir un webhook simulado y mostrar el comprobante. Incluye panel admin con filtros y un cron job que expira cobros no pagados despues de 24 horas.
 
+
+## Pantallas
+
+![khipu-catalogo](docs/screenshots/khipu-catalogo.png)
+
+![khipu-admin](docs/screenshots/khipu-admin.png)
+
 ## Stack
 
 - **Backend:** Python 3.10+, FastAPI, SQLAlchemy, SQLite, APScheduler
